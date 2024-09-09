@@ -1,0 +1,38 @@
+[
+  {
+    "link": "#!",
+    "icon": "key",
+    "title": "Dashboard",
+    "arrow": "arrow-next"
+  },
+  {
+    "link": "#!",
+    "icon": "3d",
+    "title": "Product",
+    "arrow": "arrow-next"
+  },
+  {
+    "link": "#!",
+    "icon": "user",
+    "title": "Customers",
+    "arrow": "arrow-next"
+  },
+  {
+    "link": "#!",
+    "icon": "wallet",
+    "title": "Income",
+    "arrow": "arrow-next"
+  },
+  {
+    "link": "#!",
+    "icon": "discount",
+    "title": "Promote",
+    "arrow": "arrow-next"
+  },
+  {
+    "link": "#!",
+    "icon": "message",
+    "title": "Help",
+    "arrow": "arrow-next"
+  }
+]

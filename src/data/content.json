@@ -1,0 +1,18 @@
+[
+  {
+    "Customer": "Jane Cooper",
+    "Company": "Microsoft",
+    "Phone": "(225) 555-0118",
+    "Email": "jane@microsoft.com",
+    "Country": "United States",
+    "Active": "Active"
+  },
+  {
+    "Customer": "Floyd Miles",
+    "Company": "Yahoo",
+    "Phone": "(205) 555-0100",
+    "Email": "floyd@yahoo.com",
+    "Country": "Kiribati",
+    "Active": "Inactive"
+  }
+]

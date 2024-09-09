@@ -1,0 +1,19 @@
+:root {
+  --html-fs: 1px;
+  --ff: "Poppins", sans-serif;
+  --transition: 0.3s all ease-in-out;
+
+  --font-600-26-100-ff: 600 26px / 100% var(--ff);
+  --font-500-14-100-ff: 500 14px / 100% var(--ff);
+  --font-500-10-100-ff: 500 10px / 100% var(--ff);
+  --font-400-12-100-ff: 400 12px / 100% var(--ff);
+
+  --c-color-1: #000;
+  --c-color-2: #838383;
+  --c-color-3: #9197b3;
+  --c-color-4: #fff;
+  --c-color-5: #e0e0e0;
+  --c-color-6: #757575;
+  --c-color-7: #5932ea;
+  --c-box-shadow-1: 0 10px 60px 0 rgba(226, 236, 249, 0.5);
+}

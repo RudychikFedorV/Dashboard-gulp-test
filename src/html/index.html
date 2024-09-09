@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Dashboard</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="home-row d-flex">
+            <div class="home-left">
+                @@include('blocks/logo.html')
+                @@loop('blocks/dashboard.html', '../data/home-left.json')
+                @@include('blocks/footer.html')
+            </div>
+            <div class="home-right">
+				<h2 class="home-right__title">Hello Evano 👋🏼,</h2>
+				<div class="home-right__content">
+					@@include('blocks/content.html')
+					@@loop('blocks/content-list.html', '../data/content.json')
+				</div>
+
+            </div>
+        </div>
+	</div>
+
+	<script src="./js/index.bundle.js"></script>
+</body>
+
+</html>

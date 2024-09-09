@@ -1,0 +1,38 @@
+.dashboard {
+  margin-bottom: 10px;
+  &-row {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 11px;
+    transition: var(--transition);
+    
+    &:hover {
+      background-color: var(--c-color-7);
+      border-radius: 8px;
+    }
+    &:hover .dashboard-icon {
+      filter: brightness(10);
+    }
+    &:hover .dashboard-title {
+      color: var(--c-color-4);
+    }
+    &:hover .dashboard-arrow {
+      filter: brightness(10);
+    }
+  }
+  &-icon {
+    transition: var(--transition);
+  }
+  &-title {
+    font: var(--font-500-14-100-ff);
+    letter-spacing: -0.01em;
+    color: var(--c-color-3);
+    transition: var(--transition);
+  }
+  &-arrow {
+    margin-left: auto;
+    transition: var(--transition);
+  }
+  
+}
